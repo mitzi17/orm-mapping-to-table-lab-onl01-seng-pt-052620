@@ -32,6 +32,9 @@ class Student
     sql = <<-SQL
       INSERT INTO (name, grade)
       VALUES (?, ?)
+      SQL
+      
+      
   end
     
   
